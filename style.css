@@ -1,0 +1,36 @@
+body { background-color: black; color: lime; font-family: Courier; }
+.box { border-style: solid; border-width: 2px; border-color: lime; padding: 20px; margin-top: 120px;
+background-color: black; }
+h1 { font-size: 40px; color: lime; }
+p { margin: 5px; color: lime; }
+.warning { color: lime; }
+button {
+background-color: black;
+color: lime;
+border-style: solid;
+border-width: 1px;
+border-color: lime;
+padding: 5px;
+font-family: Courier;
+}
+button:hover { background-color: #002200; }
+.cursor {
+display: inline-block;
+width: 8px;
+height: 15px;
+background-color: lime;
+.arrow {
+color: yellow;
+font-weight: bold;
+animation: blinkText 0.7s infinite;
+}
+@keyframes blinkText { 50% { opacity: 0; } }
+}
+@keyframes bounce {
+0% { margin-top: 10px; }
+50% { margin-top: 0px; }
+100% { margin-top: 10px; }
+}
+.Orpheus { animation: bounce 1s infinite; }
+.Orpheus{ margin-top: 10px; }
+
